@@ -6,7 +6,7 @@ gemfile do
 end
 
 LOGIN = 'admin'.freeze
-PASSWORDS = %w[Cisco123 cisco123 Cisco123! cisco123 Admin@huawei admin@huawei D33vice].freeze
+PASSWORDS = %w[Default1 Default2 Default3 Default4 Default5 Default6 Default7].freeze
 
 tr1 = Thread.new do
   PASSWORDS.each do |pwd|
